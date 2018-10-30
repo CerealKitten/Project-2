@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
+img {
+    width: 80%;
+    align-self: center; 
+}
+
+#logo {
+    margin-top: 5%;
+    width: 50%;
+}
