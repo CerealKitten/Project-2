@@ -8,12 +8,30 @@ header {
     align-content: center;
 }
 
+#subheader {
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+}
+
 img {
-    width: 80%;
+    height: 80%;
     align-self: center; 
+}
+
+#profile {
+    width: 90%;
+    align-self: center;
+}
+
+.arrow {
+    width: 10%;
+    align-self: center;
+    margin: 0 -2%;
 }
 
 #logo {
     margin-top: 5%;
     width: 50%;
+    margin-bottom: 5%;
 }
