@@ -14,13 +14,17 @@ a {
     color: #303030;
 }
 
+body {
+    display: flex;
+    flex-flow: column wrap;
+}
+
 div {
     display: flex;
 }
 
 nav {
-    height: 200px;
-    background-color: brown;
+    height: 130px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -44,6 +48,17 @@ nav {
 }
 
 .nav-link {
-    position: relative;
-    top: 22px;
+    font-family: sans-serif;
+}
+
+#carousel {
+    display: flex;
+    width: 90%;
+    align-content: center;
+    background: url(assets/frank-profile/IMG_0086);
+}
+
+.arrow {
+    width: 5%;
+    align-self: center;
 }
