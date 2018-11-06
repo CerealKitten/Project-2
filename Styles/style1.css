@@ -114,13 +114,14 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-content: space-between;
+    align-content: space-around;
     margin-bottom: 2.5vh;
 }
 .ex-item {
     border-radius: 1px;
     width: 30%;
-    height: 22.5%
+    height: 22.5%;
+    margin-top: 2%;
 }
 
 #view-button {
@@ -131,8 +132,9 @@ footer {
 	background-image: url(https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
 	background-color: gainsboro;
 	background-blend-mode: multiply;
-	border-radius: 3px;
-    padding: 5px ;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-bottom: 3.5vh;
 }
 
@@ -154,7 +156,7 @@ footer {
 
 .foot-sec {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100vw;
 }
 
@@ -168,6 +170,7 @@ footer {
 #logo-foot {
     width: 15vw;
     align-self: center;
+    margin-right: 2vw;
 }
 
 #foot-nav {
@@ -178,7 +181,7 @@ footer {
 
 .foot-link {
     color: #505050;
-    margin: 2vh 0 0;
+    margin-right: .5vh;
 }
 
 #read-more {
@@ -196,7 +199,8 @@ footer {
 }
 
 #bottom-search {
-    width: 40vw;
+    width: 43vw;
+    height: 2vh;
     margin-top: -2vh:
 }
 
@@ -204,12 +208,87 @@ footer {
     color: white;
 }
 
+#minigal {
+    display: none;
+    width: 30vw;
+}
+
+.end-gal {
+    margin-top: 2vh;
+    width: 95%;
+    height: 30vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    margin-bottom: 2.5vh;
+}
+
 @media screen and (min-width: 900px) {
+    
+    p {
+        font-size: 3vh;
+    }
+
+    footer {
+        height: 38vh;
+    }
+
     #carousel {
         height: 60vh;
+    }
+
+    .ex-item {
+        width: 23%;
+        height: 30%;
     }
 
     .arrow {
         margin: 0 -2.3vw;
     }
+
+    .end-head {
+        font-size: 3vh;
+    }
+
+    #minigal {
+        display: flex;
+        flex-direction: column;
+        margin: 2vh 0 5vh;
+    }
+
+    .foot-div {
+        width: 30vw;
+        margin-bottom: 0;
+    }
+
+    #view-button {
+        width: 20vw;
+        font-size: 3vh;
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+    }
+
+    #logo-foot {
+        width: 6vw;
+        margin-right: 2vw;
+    }
+
+    #foot-nav {
+        font-size: 1.2em;;
+    }
+
+    .foot-link {
+        margin-right: 2vw;
+    }
+
+    #bottom-search {
+        width: 29vw;
+        height: 3vh;
+    }
+
+    #get-ready {
+        height: 8vh;
+    }
+
 }
