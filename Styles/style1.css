@@ -75,7 +75,7 @@ nav {
 }
 
 .arrow {
-    width: 5%;
+    width: 7%;
     margin: 0 -20px;
     align-self: center;
 }
@@ -88,7 +88,7 @@ nav {
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: space-between;
-    margin-bottom: 3vh;
+    margin-bottom: 2.5vh;
 }
 .ex-item {
     border-radius: 1px;
@@ -106,5 +106,5 @@ nav {
 	background-blend-mode: multiply;
 	border-radius: 3px;
     padding: 5px ;
-    margin-bottom: 3vh;
+    margin-bottom: 3.5vh;
 }
