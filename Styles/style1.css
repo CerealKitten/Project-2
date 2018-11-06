@@ -11,12 +11,15 @@
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #303030;
 }
 
 body {
+    background: url(assets/textures/fabric_plaid.png);
+    background-color: whitesmoke;
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
+    background-blend-mode: multiply;
 }
 
 div {
@@ -24,6 +27,7 @@ div {
 }
 
 nav {
+    width: 90%;
     height: 130px;
     display: flex;
     justify-content: space-between; 
@@ -36,6 +40,11 @@ nav {
     align-items: flex-end;
 }
 
+.nav-link {
+    margin: 50px 10px;
+    color: gray;
+}
+
 .social-link {
     border-radius: 5px;
     margin: 5px;
@@ -44,6 +53,7 @@ nav {
 }
 
 .social-under {
+    color: gainsboro;
     margin: 2px 5px;
 }
 
@@ -52,13 +62,49 @@ nav {
 }
 
 #carousel {
+    margin-bottom: 3vh;
+    border: solid white 7px;
+    height: 40vh;
     display: flex;
-    width: 90%;
-    align-content: center;
-    background: url(assets/frank-profile/IMG_0086);
+    width: 85%;
+    justify-content: space-between;
+    background: url(https://pbs.twimg.com/profile_images/1020275729706102787/XOEmZKBq.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
 }
 
 .arrow {
     width: 5%;
+    margin: 0 -20px;
     align-self: center;
+}
+
+.ex-work {
+    margin-top: 7vh;
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-bottom: 3vh;
+}
+.ex-item {
+    border-radius: 1px;
+    width: 30%;
+    height: 22.5%
+}
+
+#view-button {
+    text-align: center;
+    width: 200px;
+	font-family: sans-serif;
+	color: white;
+	background-image: url(https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+	background-color: gainsboro;
+	background-blend-mode: multiply;
+	border-radius: 3px;
+    padding: 5px ;
+    margin-bottom: 3vh;
 }
